@@ -58,7 +58,8 @@
         if (isPost) {
             [request setHTTPBody:[postStr dataUsingEncoding:NSUTF8StringEncoding]];
         }
-        NSURLSessionTask *task = [NSURLSession.sharedSession dataTaskWithURL:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        
+        NSURLSessionTask *task = [NSURLSession.sharedSession dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
             NSLog(@"%@",data);
             if (error == nil){
 
@@ -68,13 +69,6 @@
                     NSArray *cookies = [NSHTTPCookie cookiesWithResponseHeaderFields:fields forURL:response.URL];
                     [NSHTTPCookieStorage.sharedHTTPCookieStorage setCookies:cookies forURL:response.URL mainDocumentURL:nil];
                     for (NSHTTPCookie *cookie in cookies) {
-                        NSDictionary *cookieProperties = [[NSDictionary alloc] init];
-                        [cookieProperties setValue:cookie.name forKey:NSHTTPCookieName];
-                        [cookieProperties setValue:cookie.value forKey:NSHTTPCookieValue];
-                        [cookieProperties setValue:cookie.domain forKey:NSHTTPCookieDomain];
-                        [cookieProperties setValue:cookie.path forKey:NSHTTPCookiePath];
-                        NSHTTPCookie *newCookie = [NSHTTPCookie cookieWithProperties:cookieProperties];
-                        [NSHTTPCookieStorage.sharedHTTPCookieStorage setCookie:newCookie];
                         NSString *keyCookie = [[NSUserDefaults standardUserDefaults] valueForKey:@"COOKIE"];
                         if (keyCookie == nil) {
                             keyCookie = @"msisdn";
@@ -102,11 +96,11 @@
                         NSString *cookie = [dic valueForKey:@"cookie"];
                         [[NSUserDefaults standardUserDefaults] setValue:cookie forKey:@"COOKIE"];
                         if ([errorString isEqualToString:@"DETECT_URL"]){
+                            
                             [self requestUrl:urlStep2 isPost:false postString:nil step:2];
                         }
                     }
                 }
-                //NSLog(@"%@",json);
             }
         }];
         [task resume];

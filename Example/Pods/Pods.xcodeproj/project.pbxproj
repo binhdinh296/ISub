@@ -149,16 +149,13 @@
 		F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D7D67B8190C8E46DBE30950EBDEA6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB26BD502122832300F12020 /* MySDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD4E2122832300F12020 /* MySDKCrypto.h */; };
-		FB26BD512122832300F12020 /* MySDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD4E2122832300F12020 /* MySDKCrypto.h */; };
-		FB26BD522122832300F12020 /* MySDKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD4F2122832300F12020 /* MySDKCrypto.m */; };
-		FB26BD532122832300F12020 /* MySDKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD4F2122832300F12020 /* MySDKCrypto.m */; };
-		FB26BD5D2122AAA300F12020 /* MySDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD5A2122AAA300F12020 /* MySDKCrypto.h */; };
-		FB26BD5E2122AAA300F12020 /* MySDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD5A2122AAA300F12020 /* MySDKCrypto.h */; };
-		FB26BD5F2122AAA300F12020 /* ISub.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD5B2122AAA300F12020 /* ISub.h */; };
-		FB26BD602122AAA300F12020 /* ISub.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD5B2122AAA300F12020 /* ISub.h */; };
-		FB26BD612122AAA300F12020 /* ISub.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD5C2122AAA300F12020 /* ISub.m */; };
-		FB26BD622122AAA300F12020 /* ISub.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD5C2122AAA300F12020 /* ISub.m */; };
+		FB26BD6A2122CF2300F12020 /* ISub.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD652122CF2200F12020 /* ISub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB26BD6B2122CF2300F12020 /* ISub.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD652122CF2200F12020 /* ISub.h */; };
+		FB26BD6C2122CF2300F12020 /* MySDKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD662122CF2200F12020 /* MySDKCrypto.m */; };
+		FB26BD6D2122CF2300F12020 /* MySDKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD662122CF2200F12020 /* MySDKCrypto.m */; };
+		FB26BD6E2122CF2300F12020 /* ISub.m in Sources */ = {isa = PBXBuildFile; fileRef = FB26BD682122CF2200F12020 /* ISub.m */; };
+		FB26BD702122CF2300F12020 /* MySDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD692122CF2200F12020 /* MySDKCrypto.h */; };
+		FB26BD712122CF2300F12020 /* MySDKCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FB26BD692122CF2200F12020 /* MySDKCrypto.h */; };
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */; };
@@ -410,11 +407,11 @@
 		F72703280C608E68C39DC6E68C30D327 /* Pods_ISub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F787B4263348644844F9D18CCBA4A124 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		F7BC126BCE017867CD28709094B3CC73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB26BD4E2122832300F12020 /* MySDKCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySDKCrypto.h; path = ISub/Classes/MySDKCrypto.h; sourceTree = "<group>"; };
-		FB26BD4F2122832300F12020 /* MySDKCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySDKCrypto.m; path = ISub/Classes/MySDKCrypto.m; sourceTree = "<group>"; };
-		FB26BD5A2122AAA300F12020 /* MySDKCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySDKCrypto.h; path = ISub/Classes/MySDKCrypto.h; sourceTree = "<group>"; };
-		FB26BD5B2122AAA300F12020 /* ISub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISub.h; path = ISub/Classes/ISub.h; sourceTree = "<group>"; };
-		FB26BD5C2122AAA300F12020 /* ISub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISub.m; path = ISub/Classes/ISub.m; sourceTree = "<group>"; };
+		FB26BD652122CF2200F12020 /* ISub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISub.h; sourceTree = "<group>"; };
+		FB26BD662122CF2200F12020 /* MySDKCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySDKCrypto.m; sourceTree = "<group>"; };
+		FB26BD672122CF2200F12020 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FB26BD682122CF2200F12020 /* ISub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISub.m; sourceTree = "<group>"; };
+		FB26BD692122CF2200F12020 /* MySDKCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySDKCrypto.h; sourceTree = "<group>"; };
 		FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
@@ -720,11 +717,7 @@
 		93127573F45CB9768A89E721F054CA06 /* ISub */ = {
 			isa = PBXGroup;
 			children = (
-				FB26BD5B2122AAA300F12020 /* ISub.h */,
-				FB26BD5C2122AAA300F12020 /* ISub.m */,
-				FB26BD4E2122832300F12020 /* MySDKCrypto.h */,
-				FB26BD5A2122AAA300F12020 /* MySDKCrypto.h */,
-				FB26BD4F2122832300F12020 /* MySDKCrypto.m */,
+				FB26BD642122CF2200F12020 /* Classes */,
 				02B12624EEA4B7FB13281A9955AA9DEA /* Pod */,
 				8A8216D42FC5FAB382453EDC9B7439FF /* Support Files */,
 			);
@@ -866,6 +859,19 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		FB26BD642122CF2200F12020 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB26BD652122CF2200F12020 /* ISub.h */,
+				FB26BD682122CF2200F12020 /* ISub.m */,
+				FB26BD662122CF2200F12020 /* MySDKCrypto.m */,
+				FB26BD692122CF2200F12020 /* MySDKCrypto.h */,
+				FB26BD672122CF2200F12020 /* .gitkeep */,
+			);
+			name = Classes;
+			path = ISub/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -897,6 +903,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4E41492BDD1AACE5CE6A56B957E4EF /* Pods-ISub_Example-umbrella.h in Headers */,
+				FB26BD712122CF2300F12020 /* MySDKCrypto.h in Headers */,
+				FB26BD6B2122CF2300F12020 /* ISub.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,17 +913,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */,
-				FB26BD5F2122AAA300F12020 /* ISub.h in Headers */,
 				5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */,
 				39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */,
 				0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */,
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
-				FB26BD502122832300F12020 /* MySDKCrypto.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
-				FB26BD5D2122AAA300F12020 /* MySDKCrypto.h in Headers */,
 				1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */,
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
 				4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */,
@@ -954,10 +959,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB26BD512122832300F12020 /* MySDKCrypto.h in Headers */,
-				FB26BD5E2122AAA300F12020 /* MySDKCrypto.h in Headers */,
 				D2240D655A6C6194DC2E86EE0B7E18CB /* ISub-umbrella.h in Headers */,
-				FB26BD602122AAA300F12020 /* ISub.h in Headers */,
+				FB26BD6A2122CF2300F12020 /* ISub.h in Headers */,
+				FB26BD702122CF2300F12020 /* MySDKCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,6 +1167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C6D052B58AE40A9D2434C3650FB4DA /* Pods-ISub_Example-dummy.m in Sources */,
+				FB26BD6D2122CF2300F12020 /* MySDKCrypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1194,9 +1199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB26BD622122AAA300F12020 /* ISub.m in Sources */,
+				FB26BD6E2122CF2300F12020 /* ISub.m in Sources */,
 				AF41FB7E069015E862DE69F47C2EB96B /* ISub-dummy.m in Sources */,
-				FB26BD532122832300F12020 /* MySDKCrypto.m in Sources */,
+				FB26BD6C2122CF2300F12020 /* MySDKCrypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1247,13 +1252,11 @@
 				98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */,
 				51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */,
 				9EA076D25036A0F4765FF3FB57CF4A6A /* EXPMatchers+contain.m in Sources */,
-				FB26BD522122832300F12020 /* MySDKCrypto.m in Sources */,
 				285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */,
 				E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */,
 				C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */,
 				BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */,
 				9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */,
-				FB26BD612122AAA300F12020 /* ISub.m in Sources */,
 				361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */,
 				870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */,
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,

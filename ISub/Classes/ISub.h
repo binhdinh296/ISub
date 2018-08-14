@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ISub : NSObject
-    
++ (void)detect ;
 @end

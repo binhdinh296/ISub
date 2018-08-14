@@ -7,12 +7,13 @@
 //
 
 #import "ISubAppDelegate.h"
+#import  "ISub.h"
 
 @implementation ISubAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Isu]
+    [ISub detect];
     // Override point for customization after application launch.
     return YES;
 }
