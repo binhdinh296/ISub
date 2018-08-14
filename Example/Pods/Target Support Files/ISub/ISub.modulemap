@@ -1,0 +1,6 @@
+framework module ISub {
+  umbrella header "ISub-umbrella.h"
+
+  export *
+  module * { export * }
+}
