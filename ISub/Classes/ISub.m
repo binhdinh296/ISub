@@ -47,7 +47,10 @@
     
     +(void)requestUrl:(NSString*)link isPost:(BOOL)isPost postString:(NSString*)postStr step:(int)step{
         
-        NSURL *myUrl = [[NSURL alloc] initWithString:link];
+        NSURL *myUrl = [NSURL URLWithString:link];
+        if (myUrl == nil) {
+            myUrl = [NSURL URLWithString:[link stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]];
+        }
         NSDictionary *header = [NSHTTPCookie requestHeaderFieldsWithCookies:[[NSHTTPCookieStorage sharedHTTPCookieStorage] cookiesForURL:myUrl]];
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:myUrl];
         request.allHTTPHeaderFields = header ;
